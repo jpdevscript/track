@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  &--form {
+    background-color: #fff;
+  }
+}
